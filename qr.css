@@ -9,14 +9,24 @@ body{
     border-radius: 15px;
     margin: 0 auto;
     width: 615px;
+    width: 100%;
+   max-width: 322px;
+   min-height: 502px;
 }
 
 .card-img{
-  padding-top: 20px;
-  padding-left: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  padding-top: 20px;  
 }
 
 img{
+
+  border-radius: 15px;
+  width: 290px;
+  height: 290px;
   border-radius: 15px;
 }
 
